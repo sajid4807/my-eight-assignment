@@ -1,0 +1,362 @@
+[
+  {
+    "image": "https://images.pexels.com/photos/1261429/pexels-photo-1261429.jpeg",
+    "title": "ChatSphere",
+    "companyName": "ConvoTech Studios",
+    "id": 101,
+    "description": "ChatSphere is an advanced messaging platform built for both casual and professional use. It supports real-time text, voice, and video chat with end-to-end encryption. With features like group channels, file sharing, voice rooms, and themes, users can tailor their communication style. The app also offers smart replies, message reactions, status stories, and a disappearing messages feature for privacy.",
+    "size": 68,
+    "reviews": 24876,
+    "ratingAvg": 4.7,
+    "downloads": 1200000,
+    "ratings": [
+      { "name": "1 star", "count": 300 },
+      { "name": "2 star", "count": 450 },
+      { "name": "3 star", "count": 1200 },
+      { "name": "4 star", "count": 6200 },
+      { "name": "5 star", "count": 18026 }
+    ]
+  },
+  {
+    "image": "https://images.pexels.com/photos/40568/iphone-telephone-device-mobile.jpg",
+    "title": "FitTrack Pro",
+    "companyName": "HealthWave Labs",
+    "id": 102,
+    "description": "FitTrack Pro is your all-in-one health companion. It helps you log workouts, track daily steps, monitor heart rate via supported wearables, and analyze sleep patterns. The app offers custom workout plans, guided meditation sessions, nutritional suggestions, and progress graphs over time. Users can also join challenges, compete with friends, and set personal goals to stay motivated.",
+    "size": 85,
+    "reviews": 17234,
+    "ratingAvg": 4.4,
+    "downloads": 900000,
+    "ratings": [
+      { "name": "1 star", "count": 500 },
+      { "name": "2 star", "count": 800 },
+      { "name": "3 star", "count": 2100 },
+      { "name": "4 star", "count": 4800 },
+      { "name": "5 star", "count": 8334 }
+    ]
+  },
+  {
+    "image": "https://images.pexels.com/photos/572056/pexels-photo-572056.jpeg",
+    "title": "LensCraft",
+    "companyName": "PixelForge",
+    "id": 103,
+    "description": "LensCraft is a professional-grade photo editing app designed for mobile creators and photographers. It features filters, layer adjustments, masking tools, AI-based background removal, and skin smoothing. Users can also create artistic collages, sync projects to the cloud, and export in multiple formats. It’s ideal for both beginners and professionals looking to perfect their shots.",
+    "size": 102,
+    "reviews": 30245,
+    "ratingAvg": 4.8,
+    "downloads": 2500000,
+    "ratings": [
+      { "name": "1 star", "count": 620 },
+      { "name": "2 star", "count": 800 },
+      { "name": "3 star", "count": 1900 },
+      { "name": "4 star", "count": 7200 },
+      { "name": "5 star", "count": 21000 }
+    ]
+  },
+  {
+    "image": "https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg",
+    "title": "TaskFlow Master",
+    "companyName": "OrganizeIt Inc.",
+    "id": 104,
+    "description": "TaskFlow Master is a productivity tool built to help individuals and teams stay organized. It supports recurring tasks, smart prioritization, and real-time collaboration. With shared boards, comments, attachments, and timeline views, users can coordinate seamlessly. Integrations with Google Calendar and Slack make it a powerful companion for remote work and daily routines.",
+    "size": 76,
+    "reviews": 21390,
+    "ratingAvg": 4.5,
+    "downloads": 1400000,
+    "ratings": [
+      { "name": "1 star", "count": 700 },
+      { "name": "2 star", "count": 1000 },
+      { "name": "3 star", "count": 2000 },
+      { "name": "4 star", "count": 6500 },
+      { "name": "5 star", "count": 11200 }
+    ]
+  },
+  {
+    "image": "https://images.pexels.com/photos/358074/pexels-photo-358074.jpeg",
+    "title": "TravelVista",
+    "companyName": "WanderSphere",
+    "id": 105,
+    "description": "TravelVista is an intelligent travel planning and booking platform that curates trip ideas tailored to your preferences. From booking flights and hotels to exploring local guides and itineraries, it makes travel effortless. The app provides travel insurance suggestions, weather alerts, and offline maps for safety and convenience during your journey.",
+    "size": 95,
+    "reviews": 34212,
+    "ratingAvg": 4.6,
+    "downloads": 3000000,
+    "ratings": [
+      { "name": "1 star", "count": 900 },
+      { "name": "2 star", "count": 1200 },
+      { "name": "3 star", "count": 2600 },
+      { "name": "4 star", "count": 10000 },
+      { "name": "5 star", "count": 20600 }
+    ]
+  },
+  {
+    "image": "https://images.pexels.com/photos/164853/pexels-photo-164853.jpeg",
+    "title": "BeatStream",
+    "companyName": "AudioWave",
+    "id": 106,
+    "description": "BeatStream is your go-to app for streaming high-quality music and podcasts. With millions of tracks, offline listening, smart playlists, and social features, it offers a complete entertainment experience. The app learns your taste over time and curates daily mixes. Premium users enjoy ad-free streaming and lossless audio playback.",
+    "size": 110,
+    "reviews": 42000,
+    "ratingAvg": 4.5,
+    "downloads": 5000000,
+    "ratings": [
+      { "name": "1 star", "count": 1500 },
+      { "name": "2 star", "count": 2500 },
+      { "name": "3 star", "count": 5000 },
+      { "name": "4 star", "count": 12000 },
+      { "name": "5 star", "count": 23500 }
+    ]
+  },
+  {
+    "image": "https://images.pexels.com/photos/267614/pexels-photo-267614.jpeg",
+    "title": "LearnSphere",
+    "companyName": "EduNext",
+    "id": 107,
+    "description": "LearnSphere is a next-generation online learning platform featuring video lessons, live sessions, coding playgrounds, and certificates. It covers everything from business and design to AI and programming. The app personalizes learning paths based on your pace and interests while offering gamified learning experiences through challenges and achievements.",
+    "size": 123,
+    "reviews": 19650,
+    "ratingAvg": 4.3,
+    "downloads": 1800000,
+    "ratings": [
+      { "name": "1 star", "count": 1100 },
+      { "name": "2 star", "count": 1500 },
+      { "name": "3 star", "count": 3300 },
+      { "name": "4 star", "count": 5200 },
+      { "name": "5 star", "count": 7500 }
+    ]
+  },
+  {
+    "image": "https://images.pexels.com/photos/3183197/pexels-photo-3183197.jpeg",
+    "title": "ShopWiz",
+    "companyName": "CommerceNet",
+    "id": 108,
+    "description": "ShopWiz aggregates deals and discounts across thousands of online retailers. It compares prices, tracks wishlists, and alerts you about flash sales. The app features secure checkout, multi-currency support, and a unique AI-driven product recommender that suggests better alternatives for your shopping cart.",
+    "size": 89,
+    "reviews": 26500,
+    "ratingAvg": 4.2,
+    "downloads": 2200000,
+    "ratings": [
+      { "name": "1 star", "count": 1200 },
+      { "name": "2 star", "count": 1700 },
+      { "name": "3 star", "count": 3900 },
+      { "name": "4 star", "count": 6000 },
+      { "name": "5 star", "count": 12100 }
+    ]
+  },
+  {
+    "image": "https://images.pexels.com/photos/3182812/pexels-photo-3182812.jpeg",
+    "title": "CookCraft",
+    "companyName": "CulinaryHub",
+    "id": 109,
+    "description": "CookCraft is a digital cookbook and meal planning app that helps users discover recipes, track ingredients, and create shopping lists. Featuring step-by-step video guides, nutritional breakdowns, and AI-generated meal suggestions, it makes home cooking enjoyable. It also syncs with smart kitchen devices for hands-free cooking assistance.",
+    "size": 97,
+    "reviews": 18400,
+    "ratingAvg": 4.6,
+    "downloads": 1400000,
+    "ratings": [
+      { "name": "1 star", "count": 600 },
+      { "name": "2 star", "count": 1000 },
+      { "name": "3 star", "count": 1900 },
+      { "name": "4 star", "count": 5600 },
+      { "name": "5 star", "count": 9300 }
+    ]
+  },
+  {
+    "image": "https://images.pexels.com/photos/394568/pexels-photo-394568.jpeg",
+    "title": "MindEase",
+    "companyName": "CalmCore",
+    "id": 110,
+    "description": "MindEase is a mindfulness and meditation app that helps you reduce stress and improve focus. It offers guided meditation, breathing exercises, mood tracking, and daily affirmations. With calming soundscapes, sleep stories, and focus sessions, MindEase is designed to bring peace to your mind and body.",
+    "size": 79,
+    "reviews": 23800,
+    "ratingAvg": 4.8,
+    "downloads": 2700000,
+    "ratings": [
+      { "name": "1 star", "count": 400 },
+      { "name": "2 star", "count": 600 },
+      { "name": "3 star", "count": 1600 },
+      { "name": "4 star", "count": 7400 },
+      { "name": "5 star", "count": 13800 }
+    ]
+  },
+  {
+    "image": "https://images.pexels.com/photos/270404/pexels-photo-270404.jpeg",
+    "title": "FinScope",
+    "companyName": "MoneySmart",
+    "id": 111,
+    "description": "FinScope helps users take control of their finances by tracking expenses, setting budgets, and analyzing spending patterns. It connects securely with your bank accounts, offers insights into saving opportunities, and provides visual charts for monthly summaries. With bill reminders and goal tracking, it’s your all-in-one finance companion.",
+    "size": 81,
+    "reviews": 17450,
+    "ratingAvg": 4.4,
+    "downloads": 1200000,
+    "ratings": [
+      { "name": "1 star", "count": 700 },
+      { "name": "2 star", "count": 1000 },
+      { "name": "3 star", "count": 2400 },
+      { "name": "4 star", "count": 4800 },
+      { "name": "5 star", "count": 8550 }
+    ]
+  },
+  {
+    "image": "https://images.pexels.com/photos/1092644/pexels-photo-1092644.jpeg",
+    "title": "NoteCraft",
+    "companyName": "BrightMind Apps",
+    "id": 112,
+    "description": "NoteCraft is a versatile note-taking app designed for students, writers, and professionals. It supports handwriting, audio notes, Markdown, cloud sync, and collaboration. Users can organize notes into folders, search through handwriting with OCR, and export to PDF. The minimalist interface ensures distraction-free productivity anywhere.",
+    "size": 72,
+    "reviews": 15500,
+    "ratingAvg": 4.5,
+    "downloads": 1500000,
+    "ratings": [
+      { "name": "1 star", "count": 500 },
+      { "name": "2 star", "count": 800 },
+      { "name": "3 star", "count": 2000 },
+      { "name": "4 star", "count": 5800 },
+      { "name": "5 star", "count": 8400 }
+    ]
+  },
+  {
+    "image": "https://images.pexels.com/photos/5081395/pexels-photo-5081395.jpeg",
+    "title": "EcoTrack",
+    "companyName": "Greenify Labs",
+    "id": 113,
+    "description": "EcoTrack helps you measure and reduce your carbon footprint. It tracks your energy consumption, transportation habits, and lifestyle choices to suggest personalized actions. Users can join global challenges, earn eco-points, and track environmental impact over time. Integration with smart devices enables real-time sustainability tracking.",
+    "size": 88,
+    "reviews": 9700,
+    "ratingAvg": 4.6,
+    "downloads": 800000,
+    "ratings": [
+      { "name": "1 star", "count": 200 },
+      { "name": "2 star", "count": 400 },
+      { "name": "3 star", "count": 900 },
+      { "name": "4 star", "count": 2900 },
+      { "name": "5 star", "count": 5200 }
+    ]
+  },
+  {
+    "image": "https://images.pexels.com/photos/4476376/pexels-photo-4476376.jpeg",
+    "title": "PetBuddy",
+    "companyName": "FurCompanion Co.",
+    "id": 114,
+    "description": "PetBuddy is the ultimate app for pet owners, offering health tracking, vaccination reminders, and dietary advice. You can schedule vet appointments, find nearby pet-friendly places, and connect with other owners. A built-in pet diary lets you log milestones and share adorable photos of your furry friends.",
+    "size": 69,
+    "reviews": 11200,
+    "ratingAvg": 4.7,
+    "downloads": 950000,
+    "ratings": [
+      { "name": "1 star", "count": 300 },
+      { "name": "2 star", "count": 400 },
+      { "name": "3 star", "count": 900 },
+      { "name": "4 star", "count": 3400 },
+      { "name": "5 star", "count": 6200 }
+    ]
+  },
+  {
+    "image": "https://images.pexels.com/photos/1181244/pexels-photo-1181244.jpeg",
+    "title": "WorkSync",
+    "companyName": "TeamFlow Inc.",
+    "id": 115,
+    "description": "WorkSync streamlines remote teamwork by combining chat, task management, and file collaboration in one place. Teams can create projects, assign roles, and monitor progress with visual dashboards. Real-time notifications and calendar sync ensure smooth coordination. Integrations with Zoom, Slack, and Drive enhance productivity.",
+    "size": 120,
+    "reviews": 25600,
+    "ratingAvg": 4.4,
+    "downloads": 2100000,
+    "ratings": [
+      { "name": "1 star", "count": 900 },
+      { "name": "2 star", "count": 1100 },
+      { "name": "3 star", "count": 2300 },
+      { "name": "4 star", "count": 6400 },
+      { "name": "5 star", "count": 11800 }
+    ]
+  },
+  {
+    "image": "https://images.pexels.com/photos/90764/pexels-photo-90764.jpeg",
+    "title": "PhotoHive",
+    "companyName": "VisualCore",
+    "id": 116,
+    "description": "PhotoHive is a social photo-sharing platform that empowers creators to showcase their work. It offers AI tagging, built-in editing tools, and creator analytics. Photographers can earn revenue through premium content subscriptions. A vibrant community and seamless design make it a hub for visual storytelling.",
+    "size": 108,
+    "reviews": 38200,
+    "ratingAvg": 4.5,
+    "downloads": 4100000,
+    "ratings": [
+      { "name": "1 star", "count": 1000 },
+      { "name": "2 star", "count": 1600 },
+      { "name": "3 star", "count": 4100 },
+      { "name": "4 star", "count": 8900 },
+      { "name": "5 star", "count": 22600 }
+    ]
+  },
+  {
+    "image": "https://images.pexels.com/photos/163093/pexels-photo-163093.jpeg",
+    "title": "LangBridge",
+    "companyName": "Polyglot Labs",
+    "id": 117,
+    "description": "LangBridge is an AI-powered language learning app that combines immersive lessons with conversational practice. It supports 30+ languages and adapts to your learning pace using speech recognition. With native tutor sessions, gamified challenges, and vocabulary flashcards, mastering new languages feels engaging and effective.",
+    "size": 96,
+    "reviews": 22900,
+    "ratingAvg": 4.6,
+    "downloads": 2500000,
+    "ratings": [
+      { "name": "1 star", "count": 700 },
+      { "name": "2 star", "count": 900 },
+      { "name": "3 star", "count": 1800 },
+      { "name": "4 star", "count": 6100 },
+      { "name": "5 star", "count": 13300 }
+    ]
+  },
+  {
+    "image": "https://images.pexels.com/photos/374870/pexels-photo-374870.jpeg",
+    "title": "GameHub Arena",
+    "companyName": "PlayVerse Studios",
+    "id": 118,
+    "description": "GameHub Arena brings gamers together with live tournaments, daily quests, and community leaderboards. It tracks your gaming stats across multiple platforms and offers personalized recommendations. Stream highlights, join teams, and earn rewards through exclusive eSports challenges.",
+    "size": 118,
+    "reviews": 40100,
+    "ratingAvg": 4.5,
+    "downloads": 4200000,
+    "ratings": [
+      { "name": "1 star", "count": 1500 },
+      { "name": "2 star", "count": 2100 },
+      { "name": "3 star", "count": 4900 },
+      { "name": "4 star", "count": 9800 },
+      { "name": "5 star", "count": 21700 }
+    ]
+  },
+  {
+    "image": "https://images.pexels.com/photos/267614/pexels-photo-267614.jpeg",
+    "title": "EduTrack Junior",
+    "companyName": "SmartEdu Labs",
+    "id": 119,
+    "description": "EduTrack Junior helps teachers and parents monitor student progress, assignments, and attendance. It provides an interactive dashboard for grades, behavior tracking, and teacher feedback. Secure cloud backup ensures that all academic data remains safe and accessible anytime.",
+    "size": 94,
+    "reviews": 9800,
+    "ratingAvg": 4.4,
+    "downloads": 870000,
+    "ratings": [
+      { "name": "1 star", "count": 400 },
+      { "name": "2 star", "count": 600 },
+      { "name": "3 star", "count": 1500 },
+      { "name": "4 star", "count": 3400 },
+      { "name": "5 star", "count": 4900 }
+    ]
+  },
+  {
+    "image": "https://images.pexels.com/photos/3184298/pexels-photo-3184298.jpeg",
+    "title": "MarketWatch Pro",
+    "companyName": "StockSmart",
+    "id": 120,
+    "description": "MarketWatch Pro delivers real-time stock updates, cryptocurrency trends, and financial news in one intuitive dashboard. The app provides charting tools, AI predictions, and customizable alerts to help investors make smarter decisions. Premium users can access portfolio analytics and expert insights.",
+    "size": 84,
+    "reviews": 21400,
+    "ratingAvg": 4.4,
+    "downloads": 1900000,
+    "ratings": [
+      { "name": "1 star", "count": 600 },
+      { "name": "2 star", "count": 900 },
+      { "name": "3 star", "count": 3100 },
+      { "name": "4 star", "count": 7100 },
+      { "name": "5 star", "count": 9700 }
+    ]
+  }
+]
