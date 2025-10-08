@@ -1,0 +1,95 @@
+import { useLoaderData, useParams } from "react-router";
+import downloadsIcon from '../../assets/icon-downloads.png';
+import ratingsIcon from '../../assets/icon-ratings.png';
+import reviewIcon from '../../assets/icon-review.png';
+import { Bar, BarChart, CartesianGrid, Tooltip, XAxis, YAxis } from 'recharts';
+
+const AppDetails = () => {
+
+  
+  const { id } = useParams();
+  const data = useLoaderData();
+
+//   console.log(data);
+  const appId = parseInt(id);
+
+  const singleApp = data.find((app) => app.id === appId);
+//   console.log(singleApp);
+  const { image, title, companyName,description } = singleApp;
+  // console.log(typeof appId)
+
+
+const sortedRatings = [...singleApp.ratings].sort((a, b) => {
+  // Extract the numeric value from "5 star", "4 star", etc.
+  const getStar = (str) => parseInt(str.split(' ')[0], 10);
+  return getStar(b.name) - getStar(a.name);
+});
+
+
+
+  
+  return (
+    <div className="max-w-[1435px] my-10 lg:my-20 mx-3 lg:mx-auto">
+      <div className="flex flex-col lg:flex-row items-center border-b border-[#001931]/20 mb-10 lg:mb-20">
+        <figure className="h-[350px]">
+          <img className="w-[350px] h-[350px] bg-base-100 shadow-sm" src={image} alt="" />
+          {/* <img className="w-[350px]" width={350} src={image} alt="" /> */}
+        </figure>
+        <div className="lg:card-body">
+          <div className="border-b border-[#001931]/20 pb-4 lg:pb-7">
+            <h2 className="text-[#001931] text-3xl font-bold mt-3 lg:mt-0 mb-1">{title}</h2>
+            <p className="text-xl text-[#627382]">
+              Developed by{" "}
+              <span className="font-semibold bg-gradient-to-r from-[#632ee3] to-[#9f62f2] bg-clip-text text-transparent">
+                {companyName}
+              </span>
+            </p>
+          </div>
+          <div className="flex gap-5 lg:gap-12 my-4 lg:my-8">
+            <div>
+                <img src={downloadsIcon} alt="" />
+                <p className="text-[#001931]/80 text-lg lg:text-xl my-1">Downloads</p>
+                <h3 className="text-[#001931] text-2xl lg:text-5xl font-extrabold">8M</h3>
+            </div>
+            <div>
+                <img src={ratingsIcon} alt="" />
+                <p className="text-[#001931]/80 text-lg lg:text-xl my-1">Average Ratings</p>
+                <h3 className="text-[#001931]  text-2xl lg:text-5xl font-extrabold" >4.9</h3>
+            </div>
+            <div>
+                <img src={reviewIcon} alt="" />
+                <p className="text-[#001931]/80 text-lg lg:text-xl my-1">Total Reviews</p>
+                <h3 className="text-[#001931]  text-2xl lg:text-5xl font-extrabold">54K</h3>
+            </div>
+          </div>
+          <div className="card-actions">
+      <button className="btn bg-[#00D390] text-white">Install Now (291 MB)</button>
+    </div>
+        </div>
+      </div>
+      <div>
+
+  <BarChart
+        width={1430}
+        height={250}
+        data={sortedRatings}
+        layout="vertical"
+        margin={{ top: 10, right: 30, bottom: 10 }}
+      >
+        {/* <CartesianGrid strokeDasharray="3 3" /> */}
+        <XAxis type="number"/>
+        <YAxis type="category"  dataKey="name"/>
+        <Tooltip />
+        <Bar dataKey="count" fill="#FF9500" barSize={25}  />
+        <Bar dataKey="name" fill="#FF9500" barSize={25}  />
+      </BarChart>
+      <div>
+        <h3 className="text-2xl font-semibold mb-4">Description</h3>
+        <p className="text-[#627382] text-xl">{description}</p>
+      </div>
+      </div>
+    </div>
+  );
+};
+
+export default AppDetails;

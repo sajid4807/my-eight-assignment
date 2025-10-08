@@ -1,6 +1,6 @@
 [
   {
-    "image": "https://i.ibb.co.com/mC0nG86Q/chattsphere.png",
+    "image": "https://i.ibb.co/mC0nG86Q/chattsphere.png",
     "title": "ChatSphere",
     "companyName": "ConvoTech Studios",
     "id": 101,
@@ -8,7 +8,7 @@
     "size": 68,
     "reviews": 24876,
     "ratingAvg": 4.7,
-    "downloads": 1200000,
+    "downloads": "1.2M",
     "ratings": [
       { "name": "1 star", "count": 300 },
       { "name": "2 star", "count": 450 },
@@ -18,15 +18,15 @@
     ]
   },
   {
-    "image": "https://i.ibb.co.com/ymc0CZ8G/health-Wave.png",
+    "image": "https://i.ibb.co/ymc0CZ8G/health-Wave.png",
     "title": "FitTrack Pro",
     "companyName": "HealthWave Labs",
     "id": 102,
-    "description": "FitTrack Pro is your all-in-one health companion. It helps you log workouts, track daily steps, monitor heart rate via supported wearables, and analyze sleep patterns. The app offers custom workout plans, guided meditation sessions, nutritional suggestions, and progress graphs over time. Users can also join challenges, compete with friends, and set personal goals.",
+    "description": "FitTrack Pro is your all-in-one health companion. It helps you log workouts, track daily steps, monitor heart rate via supported wearables, and analyze sleep patterns. The app offers custom workout plans, guided meditation sessions, nutritional suggestions, and progress graphs over time. Users can also join challenges, compete with friends, and set personal goals to stay motivated.",
     "size": 85,
     "reviews": 17234,
     "ratingAvg": 4.4,
-    "downloads": 900000,
+    "downloads": "900K",
     "ratings": [
       { "name": "1 star", "count": 500 },
       { "name": "2 star", "count": 800 },
@@ -36,15 +36,15 @@
     ]
   },
   {
-    "image": "https://i.ibb.co.com/sJVzszYC/pixel.jpg",
+    "image": "https://i.ibb.co/sJVzszYC/pixel.jpg",
     "title": "LensCraft",
     "companyName": "PixelForge",
     "id": 103,
-    "description": "LensCraft is a feature-rich photo editor for mobile creators. The app includes filters, layer adjustments, masking tools, AI-based background removal, portrait retouching, and collage templates. You can also sync your work with the cloud, export in high resolution, and share directly to social media or convert into prints.",
+    "description": "LensCraft is a professional-grade photo editing app designed for mobile creators and photographers. It features filters, layer adjustments, masking tools, AI-based background removal, and skin smoothing. Users can also create artistic collages, sync projects to the cloud, and export in multiple formats. It’s ideal for both beginners and professionals looking to perfect their shots.",
     "size": 102,
     "reviews": 30245,
     "ratingAvg": 4.8,
-    "downloads": 2500000,
+    "downloads": "2.5M",
     "ratings": [
       { "name": "1 star", "count": 620 },
       { "name": "2 star", "count": 800 },
@@ -54,15 +54,15 @@
     ]
   },
   {
-    "image": "https://i.ibb.co.com/9m94L806/organize.jpg",
+    "image": "https://i.ibb.co/9m94L806/organize.jpg",
     "title": "TaskFlow Master",
     "companyName": "OrganizeIt Inc.",
     "id": 104,
-    "description": "TaskFlow Master streamlines productivity with smart to-do lists, priority tagging, deadlines, reminders, and project boards. It supports collaboration, allowing teams to share and track tasks, comment, attach files, and integrate with calendars. The app includes analytics to show your productivity trends over time and smart suggestions to optimize your workflow.",
+    "description": "TaskFlow Master is a productivity tool built to help individuals and teams stay organized. It supports recurring tasks, smart prioritization, and real-time collaboration. With shared boards, comments, attachments, and timeline views, users can coordinate seamlessly. Integrations with Google Calendar and Slack make it a powerful companion for remote work and daily routines.",
     "size": 76,
     "reviews": 21390,
     "ratingAvg": 4.5,
-    "downloads": 1400000,
+    "downloads": "1.4M",
     "ratings": [
       { "name": "1 star", "count": 700 },
       { "name": "2 star", "count": 1000 },
@@ -72,15 +72,15 @@
     ]
   },
   {
-    "image": "https://i.ibb.co.com/B5L1d9N6/wander.png",
+    "image": "https://i.ibb.co/B5L1d9N6/wander.png",
     "title": "TravelVista",
     "companyName": "WanderSphere",
     "id": 105,
-    "description": "TravelVista helps users discover destinations, book flights and hotels, plan itineraries, and explore local attractions. It offers dynamic travel suggestions based on interests, currency conversion, offline maps, and travel diaries. Users can collaborate on trip plans, get travel alerts, and see curated local guides for a personalized experience.",
+    "description": "TravelVista is an intelligent travel planning and booking platform that curates trip ideas tailored to your preferences. From booking flights and hotels to exploring local guides and itineraries, it makes travel effortless. The app provides travel insurance suggestions, weather alerts, and offline maps for safety and convenience during your journey.",
     "size": 95,
     "reviews": 34212,
     "ratingAvg": 4.6,
-    "downloads": 3000000,
+    "downloads": "3M",
     "ratings": [
       { "name": "1 star", "count": 900 },
       { "name": "2 star", "count": 1200 },
@@ -90,15 +90,15 @@
     ]
   },
   {
-    "image": "https://i.ibb.co.com/5WMLVfzf/audio.jpg",
+    "image": "https://i.ibb.co/5WMLVfzf/audio.jpg",
     "title": "BeatStream",
     "companyName": "AudioWave",
     "id": 106,
-    "description": "BeatStream is a multimedia streaming platform for music, podcasts, and audiobooks. It offers curated playlists, personalised recommendations, cross-device sync, offline listening, and social sharing. The app also provides in-depth analytics about your listening habits and integrates with smart home devices for seamless playback.",
+    "description": "BeatStream is your go-to app for streaming high-quality music and podcasts. With millions of tracks, offline listening, smart playlists, and social features, it offers a complete entertainment experience. The app learns your taste over time and curates daily mixes. Premium users enjoy ad-free streaming and lossless audio playback.",
     "size": 110,
     "reviews": 42000,
     "ratingAvg": 4.5,
-    "downloads": 5000000,
+    "downloads": "5M",
     "ratings": [
       { "name": "1 star", "count": 1500 },
       { "name": "2 star", "count": 2500 },
@@ -108,15 +108,15 @@
     ]
   },
   {
-    "image": "https://i.ibb.co.com/hxbC3zBV/edunext.jpg",
+    "image": "https://i.ibb.co/hxbC3zBV/edunext.jpg",
     "title": "LearnSphere",
     "companyName": "EduNext",
     "id": 107,
-    "description": "LearnSphere is an educational platform featuring thousands of courses, quizzes, live sessions, and mentorship. It supports video, slides, code playgrounds, and community forums. The app personalizes learning paths, tracks progress, and issues certificates. Users can also join study groups and challenge each other with skill assessments.",
+    "description": "LearnSphere is a next-generation online learning platform featuring video lessons, live sessions, coding playgrounds, and certificates. It covers everything from business and design to AI and programming. The app personalizes learning paths based on your pace and interests while offering gamified learning experiences through challenges and achievements.",
     "size": 123,
     "reviews": 19650,
     "ratingAvg": 4.3,
-    "downloads": 1800000,
+    "downloads": "1.8M",
     "ratings": [
       { "name": "1 star", "count": 1100 },
       { "name": "2 star", "count": 1500 },
@@ -126,15 +126,15 @@
     ]
   },
   {
-    "image": "https://i.ibb.co.com/MD18gLrF/commerce.png",
+    "image": "https://i.ibb.co/MD18gLrF/commerce.png",
     "title": "ShopWiz",
     "companyName": "CommerceNet",
     "id": 108,
-    "description": "ShopWiz is a smart shopping assistant app that aggregates deals, tracks price drops, compares products across vendors, and offers coupon codes. It includes wishlists, personalized recommendations, deal alerts, and safe payment gateways. The app also supports augmented reality previews to visualize products in your environment before purchase.",
+    "description": "ShopWiz aggregates deals and discounts across thousands of online retailers. It compares prices, tracks wishlists, and alerts you about flash sales. The app features secure checkout, multi-currency support, and a unique AI-driven product recommender that suggests better alternatives for your shopping cart.",
     "size": 89,
     "reviews": 26500,
     "ratingAvg": 4.2,
-    "downloads": 2200000,
+    "downloads": "2.2M",
     "ratings": [
       { "name": "1 star", "count": 1200 },
       { "name": "2 star", "count": 1700 },

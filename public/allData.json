@@ -1,6 +1,6 @@
 [
   {
-    "image": "https://i.ibb.co.com/mC0nG86Q/chattsphere.png",
+    "image": "https://i.ibb.co/mC0nG86Q/chattsphere.png",
     "title": "ChatSphere",
     "companyName": "ConvoTech Studios",
     "id": 101,
@@ -8,7 +8,7 @@
     "size": 68,
     "reviews": 24876,
     "ratingAvg": 4.7,
-    "downloads": 1200000,
+    "downloads": "1.2M",
     "ratings": [
       { "name": "1 star", "count": 300 },
       { "name": "2 star", "count": 450 },
@@ -18,7 +18,7 @@
     ]
   },
   {
-    "image": "https://i.ibb.co.com/ymc0CZ8G/health-Wave.png",
+    "image": "https://i.ibb.co/ymc0CZ8G/health-Wave.png",
     "title": "FitTrack Pro",
     "companyName": "HealthWave Labs",
     "id": 102,
@@ -26,7 +26,7 @@
     "size": 85,
     "reviews": 17234,
     "ratingAvg": 4.4,
-    "downloads": 900000,
+    "downloads": "900K",
     "ratings": [
       { "name": "1 star", "count": 500 },
       { "name": "2 star", "count": 800 },
@@ -36,7 +36,7 @@
     ]
   },
   {
-    "image": "https://i.ibb.co.com/sJVzszYC/pixel.jpg",
+    "image": "https://i.ibb.co/sJVzszYC/pixel.jpg",
     "title": "LensCraft",
     "companyName": "PixelForge",
     "id": 103,
@@ -44,7 +44,7 @@
     "size": 102,
     "reviews": 30245,
     "ratingAvg": 4.8,
-    "downloads": 2500000,
+    "downloads": "2.5M",
     "ratings": [
       { "name": "1 star", "count": 620 },
       { "name": "2 star", "count": 800 },
@@ -54,7 +54,7 @@
     ]
   },
   {
-    "image": "https://i.ibb.co.com/9m94L806/organize.jpg",
+    "image": "https://i.ibb.co/9m94L806/organize.jpg",
     "title": "TaskFlow Master",
     "companyName": "OrganizeIt Inc.",
     "id": 104,
@@ -62,7 +62,7 @@
     "size": 76,
     "reviews": 21390,
     "ratingAvg": 4.5,
-    "downloads": 1400000,
+    "downloads": "1.4M",
     "ratings": [
       { "name": "1 star", "count": 700 },
       { "name": "2 star", "count": 1000 },
@@ -72,7 +72,7 @@
     ]
   },
   {
-    "image": "https://i.ibb.co.com/B5L1d9N6/wander.png",
+    "image": "https://i.ibb.co/B5L1d9N6/wander.png",
     "title": "TravelVista",
     "companyName": "WanderSphere",
     "id": 105,
@@ -80,7 +80,7 @@
     "size": 95,
     "reviews": 34212,
     "ratingAvg": 4.6,
-    "downloads": 3000000,
+    "downloads": "3M",
     "ratings": [
       { "name": "1 star", "count": 900 },
       { "name": "2 star", "count": 1200 },
@@ -90,7 +90,7 @@
     ]
   },
   {
-    "image": "https://i.ibb.co.com/5WMLVfzf/audio.jpg",
+    "image": "https://i.ibb.co/5WMLVfzf/audio.jpg",
     "title": "BeatStream",
     "companyName": "AudioWave",
     "id": 106,
@@ -98,7 +98,7 @@
     "size": 110,
     "reviews": 42000,
     "ratingAvg": 4.5,
-    "downloads": 5000000,
+    "downloads": "5M",
     "ratings": [
       { "name": "1 star", "count": 1500 },
       { "name": "2 star", "count": 2500 },
@@ -108,7 +108,7 @@
     ]
   },
   {
-    "image": "https://i.ibb.co.com/hxbC3zBV/edunext.jpg",
+    "image": "https://i.ibb.co/hxbC3zBV/edunext.jpg",
     "title": "LearnSphere",
     "companyName": "EduNext",
     "id": 107,
@@ -116,7 +116,7 @@
     "size": 123,
     "reviews": 19650,
     "ratingAvg": 4.3,
-    "downloads": 1800000,
+    "downloads": "1.8M",
     "ratings": [
       { "name": "1 star", "count": 1100 },
       { "name": "2 star", "count": 1500 },
@@ -126,7 +126,7 @@
     ]
   },
   {
-    "image": "https://i.ibb.co.com/MD18gLrF/commerce.png",
+    "image": "https://i.ibb.co/MD18gLrF/commerce.png",
     "title": "ShopWiz",
     "companyName": "CommerceNet",
     "id": 108,
@@ -134,7 +134,7 @@
     "size": 89,
     "reviews": 26500,
     "ratingAvg": 4.2,
-    "downloads": 2200000,
+    "downloads": "2.2M",
     "ratings": [
       { "name": "1 star", "count": 1200 },
       { "name": "2 star", "count": 1700 },
@@ -144,7 +144,7 @@
     ]
   },
   {
-    "image": "https://i.ibb.co.com/rPW8k6b/culinary.jpg",
+    "image": "https://i.ibb.co/rPW8k6b/culinary.jpg",
     "title": "CookCraft",
     "companyName": "CulinaryHub",
     "id": 109,
@@ -152,7 +152,7 @@
     "size": 97,
     "reviews": 18400,
     "ratingAvg": 4.6,
-    "downloads": 1400000,
+    "downloads": "1.4M",
     "ratings": [
       { "name": "1 star", "count": 600 },
       { "name": "2 star", "count": 1000 },
@@ -162,7 +162,7 @@
     ]
   },
   {
-    "image": "https://i.ibb.co.com/bj75vmLP/core.png",
+    "image": "https://i.ibb.co/bj75vmLP/core.png",
     "title": "MindEase",
     "companyName": "CalmCore",
     "id": 110,
@@ -170,7 +170,7 @@
     "size": 79,
     "reviews": 23800,
     "ratingAvg": 4.8,
-    "downloads": 2700000,
+    "downloads": "2.7M",
     "ratings": [
       { "name": "1 star", "count": 400 },
       { "name": "2 star", "count": 600 },
@@ -180,7 +180,7 @@
     ]
   },
   {
-    "image": "https://i.ibb.co.com/W458kms1/money.png",
+    "image": "https://i.ibb.co/W458kms1/money.png",
     "title": "FinScope",
     "companyName": "MoneySmart",
     "id": 111,
@@ -188,7 +188,7 @@
     "size": 81,
     "reviews": 17450,
     "ratingAvg": 4.4,
-    "downloads": 1200000,
+    "downloads": "1.2M",
     "ratings": [
       { "name": "1 star", "count": 700 },
       { "name": "2 star", "count": 1000 },
@@ -198,7 +198,7 @@
     ]
   },
   {
-    "image": "https://i.ibb.co.com/VWv0tcbv/bright.png",
+    "image": "https://i.ibb.co/VWv0tcbv/bright.png",
     "title": "NoteCraft",
     "companyName": "BrightMind Apps",
     "id": 112,
@@ -206,7 +206,7 @@
     "size": 72,
     "reviews": 15500,
     "ratingAvg": 4.5,
-    "downloads": 1500000,
+    "downloads": "1.5M",
     "ratings": [
       { "name": "1 star", "count": 500 },
       { "name": "2 star", "count": 800 },
@@ -216,7 +216,7 @@
     ]
   },
   {
-    "image": "https://i.ibb.co.com/39XP9xFp/greenify.png",
+    "image": "https://i.ibb.co/39XP9xFp/greenify.png",
     "title": "EcoTrack",
     "companyName": "Greenify Labs",
     "id": 113,
@@ -224,7 +224,7 @@
     "size": 88,
     "reviews": 9700,
     "ratingAvg": 4.6,
-    "downloads": 800000,
+    "downloads": "800K",
     "ratings": [
       { "name": "1 star", "count": 200 },
       { "name": "2 star", "count": 400 },
@@ -234,7 +234,7 @@
     ]
   },
   {
-    "image": "https://i.ibb.co.com/FLr14cTc/fur.jpg",
+    "image": "https://i.ibb.co/FLr14cTc/fur.jpg",
     "title": "PetBuddy",
     "companyName": "FurCompanion Co.",
     "id": 114,
@@ -242,7 +242,7 @@
     "size": 69,
     "reviews": 11200,
     "ratingAvg": 4.7,
-    "downloads": 950000,
+    "downloads": "950K",
     "ratings": [
       { "name": "1 star", "count": 300 },
       { "name": "2 star", "count": 400 },
@@ -252,7 +252,7 @@
     ]
   },
   {
-    "image": "https://i.ibb.co.com/spKXzB05/team.jpg",
+    "image": "https://i.ibb.co/spKXzB05/team.jpg",
     "title": "WorkSync",
     "companyName": "TeamFlow Inc.",
     "id": 115,
@@ -260,7 +260,7 @@
     "size": 120,
     "reviews": 25600,
     "ratingAvg": 4.4,
-    "downloads": 2100000,
+    "downloads": "2.1M",
     "ratings": [
       { "name": "1 star", "count": 900 },
       { "name": "2 star", "count": 1100 },
@@ -270,7 +270,7 @@
     ]
   },
   {
-    "image": "https://i.ibb.co.com/PZqtVvBV/visual.png",
+    "image": "https://i.ibb.co/PZqtVvBV/visual.png",
     "title": "PhotoHive",
     "companyName": "VisualCore",
     "id": 116,
@@ -278,7 +278,7 @@
     "size": 108,
     "reviews": 38200,
     "ratingAvg": 4.5,
-    "downloads": 4100000,
+    "downloads": "4.1M",
     "ratings": [
       { "name": "1 star", "count": 1000 },
       { "name": "2 star", "count": 1600 },
@@ -288,7 +288,7 @@
     ]
   },
   {
-    "image": "https://i.ibb.co.com/PGrmqG9M/polyglot.png",
+    "image": "https://i.ibb.co/PGrmqG9M/polyglot.png",
     "title": "LangBridge",
     "companyName": "Polyglot Labs",
     "id": 117,
@@ -296,7 +296,7 @@
     "size": 96,
     "reviews": 22900,
     "ratingAvg": 4.6,
-    "downloads": 2500000,
+    "downloads": "2.5M",
     "ratings": [
       { "name": "1 star", "count": 700 },
       { "name": "2 star", "count": 900 },
@@ -306,7 +306,7 @@
     ]
   },
   {
-    "image": "https://i.ibb.co.com/vxNW723J/play.jpg",
+    "image": "https://i.ibb.co/vxNW723J/play.jpg",
     "title": "GameHub Arena",
     "companyName": "PlayVerse Studios",
     "id": 118,
@@ -314,7 +314,7 @@
     "size": 118,
     "reviews": 40100,
     "ratingAvg": 4.5,
-    "downloads": 4200000,
+    "downloads": "4.2M",
     "ratings": [
       { "name": "1 star", "count": 1500 },
       { "name": "2 star", "count": 2100 },
@@ -324,7 +324,7 @@
     ]
   },
   {
-    "image": "https://i.ibb.co.com/WpvMS38p/smart.webp",
+    "image": "https://i.ibb.co/WpvMS38p/smart.webp",
     "title": "EduTrack Junior",
     "companyName": "SmartEdu Labs",
     "id": 119,
@@ -332,7 +332,7 @@
     "size": 94,
     "reviews": 9800,
     "ratingAvg": 4.4,
-    "downloads": 870000,
+    "downloads": "870K",
     "ratings": [
       { "name": "1 star", "count": 400 },
       { "name": "2 star", "count": 600 },
@@ -342,7 +342,7 @@
     ]
   },
   {
-    "image": "https://i.ibb.co.com/0yMvwjzz/stock.png",
+    "image": "https://i.ibb.co/0yMvwjzz/stock.png",
     "title": "MarketWatch Pro",
     "companyName": "StockSmart",
     "id": 120,
@@ -350,7 +350,7 @@
     "size": 84,
     "reviews": 21400,
     "ratingAvg": 4.4,
-    "downloads": 1900000,
+    "downloads": "1.9M",
     "ratings": [
       { "name": "1 star", "count": 600 },
       { "name": "2 star", "count": 900 },
