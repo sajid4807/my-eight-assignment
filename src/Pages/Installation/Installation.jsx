@@ -1,51 +1,45 @@
 import { useEffect, useState } from "react";
 import { useLoaderData } from "react-router";
-import { getInstallApp } from "../../components/utility/addToBD";
+import { getInstallApp, removeStoreBd } from "../../components/utility/addToBD";
 import InstallApps from "../../components/InstallApps/InstallApps";
+import Loading from "../Loading/Loading";
 
 const Installation = () => {
 
     const data = useLoaderData()
-    const [installList, setInstallLIst] =useState([])
+    const [installList, setInstallList] =useState([])
     const [sort, setSort] =useState('')
+    const [loading,setLoading] =useState(true)
+
 
     const handleSort = type => {
         setSort(type)
-        if( type === 'Download'){
-            // const storedByDownload = [...installList].sort((a,b) => a.downloads - b.downloads)
-            // chatgpt
-            const storedByDownload = [...installList].sort((a,b) => {
-                const numA = convertDownloadsToNumber(a.downloads);
-      const numB = convertDownloadsToNumber(b.downloads);
-      return numA - numB;
-            })
-            // chatgpt
-            setInstallLIst(storedByDownload)
+        if(type === "ratingAvg"){
+            const sortedRatings = [...installList].sort(((a,b) => a.ratingAvg - b.ratingAvg))
+            setInstallList(sortedRatings)
         }
-
+        if(type === "rating"){
+            const sortedRatings = [...installList].sort(((a,b) => b.ratingAvg - a.ratingAvg))
+            setInstallList(sortedRatings)
+        }
     }
-
-// chatgpt
-    const convertDownloadsToNumber = (value) => {
-  if (typeof value === 'string') {
-    value = value.toUpperCase().trim();
-    if (value.endsWith('M')) return parseFloat(value) 
-    if (value.endsWith('K')) return parseFloat(value)
-  }
-  return parseFloat(value) || 0;
-};
-// chatgpt
-
+   
+     const uninstallApp =id =>{
+        alert('remove')
+         removeStoreBd(id)
+        const removeApp = installList.filter(app => app.id !== id)
+        setInstallList(removeApp)
+     }
 
     useEffect(()=> {
+        setLoading(true)
         const storedInstallData = getInstallApp()
-        // storeBookData.map(id => parseInt(id))
         const convertedInstallAppData = storedInstallData.map(id => parseInt(id))
         const installApp = data.filter(app => convertedInstallAppData.includes(app.id))
-        setInstallLIst(installApp)
+        setInstallList(installApp)
+        setLoading(false)
     },[])
 
-    // const 
     return (
         <div className="max-w-[1435px] mx-3 lg:mx-auto mb-10 lg:mb-20">
             <div className="text-center mt-10 lg:mt-20 mb-5 lg:mb-10">
@@ -54,18 +48,25 @@ const Installation = () => {
             </div>
             <div className="flex justify-between items-center mb-3">
                 <p className="text-2xl font-semibold text-[#001931]"><span>{installList.length}</span> Apps Found</p>
-                <details className="dropdown">
+                <details className="dropdown dropdown-bottom dropdown-end">
   <summary className="btn m-1">open or close</summary>
   <ul className="menu dropdown-content bg-base-100 rounded-box z-1 w-52 p-2 shadow-sm">
-    <li><a onClick={()=> handleSort("Download")}>Low-High</a></li>
-    {/* <li><a onClick={()=> handleSort("Download")}>High-Low</a></li> */}
+    <li><a onClick={()=>handleSort("ratingAvg")}>Low-High</a></li>
+    <li><a onClick={()=> handleSort("rating")}>High-Low</a></li>
   </ul>
 </details>
             </div>
             <div>
+
                 {
-                    installList.map(app => <InstallApps key={app.id} app={app}></InstallApps>)
+                    loading ?<Loading></Loading>:(
+                        
+                            installList.map(app => <InstallApps key={app.id} app={app} uninstallApp={uninstallApp}></InstallApps>)
+                    )
                 }
+                {/* {
+                    installList.map(app => <InstallApps key={app.id} app={app} uninstallApp={uninstallApp}></InstallApps>)
+                } */}
             </div>
         </div>
     );

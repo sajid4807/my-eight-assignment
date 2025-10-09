@@ -7,11 +7,11 @@ const getInstallApp = ()=> {
         return []
     }
 }
+
 const addStoreBd = (id) => {
     const setInstallData = getInstallApp()
     if(setInstallData.includes(id)){
-        alert('already exist')
-
+        // alert('already exist')
     }else{
         setInstallData.push(id)
         const data = JSON.stringify(setInstallData)
@@ -20,4 +20,12 @@ const addStoreBd = (id) => {
     }
 }
 
-export {addStoreBd,getInstallApp}
+const removeStoreBd = id => {
+    const setInstallData = getInstallApp()
+    const updatedApps = setInstallData.filter(appId => appId !== id)
+    const data = JSON.stringify(updatedApps)
+    localStorage.setItem("Install", data)
+
+}
+
+export {addStoreBd,getInstallApp,removeStoreBd}

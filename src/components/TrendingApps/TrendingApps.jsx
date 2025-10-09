@@ -2,7 +2,6 @@ import { NavLink } from "react-router";
 import Trending from "../Trending/Trending";
 
 const TrendingApps = ({homeData}) => {
-    // console.log(homeData)
 
     return (
         <div className='max-w-[1435px] mx-3 lg:mx-auto'>
@@ -16,9 +15,7 @@ const TrendingApps = ({homeData}) => {
                 </div>
                 <NavLink to="/apps">
                     <button className="btn bg-gradient-to-r from-[#632ee3] to-[#9f62f2] text-white px-8 py-4 mt-5 lg:mt-10 mb-7 lg:mb-14">Show All</button>
-                    {/* Show All */}
                 </NavLink>
-                {/* <button onClick={() => {handleHome}} className="btn bg-gradient-to-r from-[#632ee3] to-[#9f62f2] text-white px-8 py-4 mt-5 lg:mt-10 mb-7 lg:mb-14">Show All</button> */}
             </div>
         </div>
     );

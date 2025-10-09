@@ -1,26 +1,15 @@
 import { useLoaderData } from "react-router";
-// import { CiSearch } from "react-icons/ci";
 import App from "../../components/App/App";
 import { useState } from "react";
-// import { useState } from "react";
 
 const Apps = () => {
-    
+
     const appsData = useLoaderData()
     const [search,setSearch] =useState('')
-    // console.log(search)
     const trim = search.trim().toLocaleLowerCase()
 
-    const searchApp = trim? appsData.filter(app=> app.title.toLocaleLowerCase().includes(trim)): appsData;
-    // console.log(searchApp)
-
-    // const {search, setSearch} = useState('')
-
-    // const vlue = [...appsData, search]
-
-    // const searchData = appsData.find(title => title.title === vlue)
-    // console.log(searchData)
-    // console.log(appsData)
+    const searchApp = trim? appsData.filter(app=> app.title.toLocaleLowerCase().includes(trim)):appsData;
+   
     return (
         <div className="max-w-[1435px] mx-3 lg:mx-auto">
             <div className="text-center mt-10 lg:mt-20 mb-5 lg:mb-10">
@@ -32,9 +21,19 @@ const Apps = () => {
                     <input value={search} onChange={ e => setSearch(e.target.value)} type="search" placeholder="search Apps" className="border border-[#d2d2d2] px-4 py-2 rounded-lg " />
             </div>
             <div className="grid grid-rows-1 lg:grid-cols-4 mb-10 lg:mb-20 gap-4 mt-5 lg:mt-10">
-                {
+
+            {searchApp.length > 0 ? (
+                    searchApp.map(app => <App key={app.id} app={app} />)
+                    ) : (
+                    <p className="col-span-full text-center text-gray-500">
+                        {/* work later */}
+                        No apps match your search.
+                    </p>
+                    )}
+
+                {/* {
                     searchApp.map(app => <App key={app.id} app={app}></App>)
-                }
+                } */}
             </div>
         </div>
     );

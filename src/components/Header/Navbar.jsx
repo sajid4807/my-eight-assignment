@@ -1,5 +1,7 @@
 import { FaGithub } from "react-icons/fa";
 import { Link, NavLink } from "react-router";
+import logo from '../../assets/logo.png';
+import './navbar.css'
 
 const Navbar = () => {
   return (
@@ -32,7 +34,7 @@ const Navbar = () => {
         <NavLink to="/install" className="font-semibold">Installation</NavLink>
           </ul>
         </div>
-        <NavLink to='/' className="flex items-center text-xl"><img src="../../../src/assets/logo.png" className="w-10 h-10 mr-2" alt="" /> <span className="font-bold bg-gradient-to-r from-[#632ee3] to-[#9f62f2] bg-clip-text text-transparent">HERO.IO</span> </NavLink>
+        <NavLink to='/' className="flex items-center text-xl"><img src={logo} className="w-10 h-10 mr-2" alt="" /> <span className="font-bold bg-gradient-to-r from-[#632ee3] to-[#9f62f2] bg-clip-text text-transparent">HERO.IO</span> </NavLink>
       </div>
       <div className="navbar-center hidden lg:flex">
         <NavLink to="/" className="mr-7 font-semibold">Home</NavLink>

@@ -4,7 +4,6 @@ import TrendingApps from '../../components/TrendingApps/TrendingApps';
 
 const Home = () => {
     const homeData = useLoaderData()
-    // console.log(apps)
     return (
         <div>
             <Banner></Banner>

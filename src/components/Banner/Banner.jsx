@@ -1,9 +1,6 @@
-import { BiLogoPlayStore } from "react-icons/bi";
-// import moduleName from 'module';
-// import app from '../../../src/assets/app.png'
-// import playStore from './../../src/assets/playStore.png'
 import play from "../../../src/assets/palyStore.png";
 import app from "../../../src/assets/app.png";
+import { Link } from "react-router";
 const Banner = () => {
   return (
     <div>
@@ -20,13 +17,16 @@ const Banner = () => {
           simpler, smarter, and more exciting.Our goal is to turn your ideas
           into digital experiences that truly make an impact.
         </p>
-        {/* <button><img src={play} alt="" className="w-[33px] h-8 mr-2" /> Google Play</button> */}
-        <button className="btn mr-4">
+        <Link to="https://play.google.com/store/games?hl=en" target="_blank">
+        <button className="btn mr-4 p-3">
           <img src={play} alt="" className="w-[33px] h-8 mr-2" /> Google Play
         </button>
-        <button className="btn">
+        </Link>
+        <Link to="https://www.apple.com/app-store/" target="_blank">
+        <button className="btn p-3">
           <img src={app} alt="" className="w-[33px] h-8 mr-2" /> App Store
         </button>
+        </Link>
       </div>
       <div className="lg:w-7xl mx-3 lg:mx-auto mt-5 lg:mt-10 text-center flex justify-center">
         <img src="../../../src/assets/hero.png" alt=""  />
