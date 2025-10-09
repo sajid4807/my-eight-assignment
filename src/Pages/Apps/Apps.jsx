@@ -1,11 +1,18 @@
 import { useLoaderData } from "react-router";
 // import { CiSearch } from "react-icons/ci";
 import App from "../../components/App/App";
+import { useState } from "react";
 // import { useState } from "react";
 
 const Apps = () => {
-
+    
     const appsData = useLoaderData()
+    const [search,setSearch] =useState('')
+    // console.log(search)
+    const trim = search.trim().toLocaleLowerCase()
+
+    const searchApp = trim? appsData.filter(app=> app.title.toLocaleLowerCase().includes(trim)): appsData;
+    console.log(searchApp)
 
     // const {search, setSearch} = useState('')
 
@@ -21,14 +28,12 @@ const Apps = () => {
                 <p className="text-[#627382] text-lg lg:text-xl">Explore All Apps on the Market developed by us. We code for Millions</p>
             </div>
             <div className="flex items-center justify-between mb-4">
-                <p className="text-lg lg:text-2xl text-[#001931] font-semibold">(20) Apps Found</p>
-                <form>
-                    <input type="search" name="search" id="" placeholder="search Apps" className="border border-[#d2d2d2] px-4 py-2 rounded-lg " />
-                </form>
+                <p className="text-lg lg:text-2xl text-[#001931] font-semibold"> <span>({searchApp.length})</span> Apps Found</p>
+                    <input value={search} onChange={ e => setSearch(e.target.value)} type="search" placeholder="search Apps" className="border border-[#d2d2d2] px-4 py-2 rounded-lg " />
             </div>
             <div className="grid grid-rows-1 lg:grid-cols-4 mb-10 lg:mb-20 gap-4 mt-5 lg:mt-10">
                 {
-                    appsData.map(app => <App key={app.id} app={app}></App>)
+                    searchApp.map(app => <App key={app.id} app={app}></App>)
                 }
             </div>
         </div>

@@ -3,6 +3,7 @@ import downloadsIcon from '../../assets/icon-downloads.png';
 import ratingsIcon from '../../assets/icon-ratings.png';
 import reviewIcon from '../../assets/icon-review.png';
 import { Bar, BarChart, CartesianGrid, Tooltip, XAxis, YAxis } from 'recharts';
+import { addStoreBd } from "../utility/addToBD";
 
 const AppDetails = () => {
 
@@ -26,7 +27,9 @@ const sortedRatings = [...singleApp.ratings].sort((a, b) => {
 });
 
 
-
+    const handelInstallClick = id => {
+      addStoreBd(id)
+    }
   
   return (
     <div className="max-w-[1435px] my-10 lg:my-20 mx-3 lg:mx-auto">
@@ -63,7 +66,7 @@ const sortedRatings = [...singleApp.ratings].sort((a, b) => {
             </div>
           </div>
           <div className="card-actions">
-      <button className="btn bg-[#00D390] text-white">Install Now (291 MB)</button>
+      <button onClick={() => handelInstallClick(id)} className="btn bg-[#00D390] text-white">Install Now (291 MB)</button>
     </div>
         </div>
       </div>

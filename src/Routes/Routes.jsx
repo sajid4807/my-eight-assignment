@@ -17,22 +17,22 @@ export const router = createBrowserRouter([
       {
         index: true,
         path: "/",
-        loader:()=> fetch('homeData.json'),
+        loader:()=> fetch('../homeData.json'),
         Component: Home,
       },
       {
         path:'apps',
-        loader:()=> fetch('allData.json'),
+        loader:()=> fetch('../allData.json'),
         Component:Apps
       },
       {
-        path:'instal',
+        path:'install',
         Component:Installation
       },
       {
         path:'/appDetails/:id',
         errorElement:<ErrorId />,
-        loader:()=> fetch('allData.json'),
+        loader:()=> fetch('../allData.json'),
         Component:AppDetails,
         // loader:loader:()=> fetch('allData.json')
         

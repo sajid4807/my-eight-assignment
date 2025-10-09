@@ -30,7 +30,7 @@ const Navbar = () => {
           >
             <NavLink to="/" className="mr-7 font-semibold">Home</NavLink>
         <NavLink to="/apps" className="mr-7 font-semibold">Apps</NavLink>
-        <NavLink to="/instal" className="font-semibold">Installation</NavLink>
+        <NavLink to="/install" className="font-semibold">Installation</NavLink>
           </ul>
         </div>
         <NavLink to='/' className="btn btn-ghost text-xl"><img src="../../../src/assets/logo.png" className="w-10 h-10" alt="" /> <span className="font-bold bg-gradient-to-r from-[#632ee3] to-[#9f62f2] bg-clip-text text-transparent">HERO.IO</span> </NavLink>
@@ -38,7 +38,7 @@ const Navbar = () => {
       <div className="navbar-center hidden lg:flex">
         <NavLink to="/" className="mr-7 font-semibold">Home</NavLink>
         <NavLink to="/apps" className="mr-7 font-semibold">Apps</NavLink>
-        <NavLink to="/instal" className="font-semibold">Installation</NavLink>
+        <NavLink to="/install" className="font-semibold">Installation</NavLink>
       </div>
       <div className="navbar-end">
         <a className="btn bg-gradient-to-r from-[#632ee3] to-[#9f62f2] text-white"><FaGithub /> Contribute</a>

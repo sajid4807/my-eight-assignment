@@ -1,6 +1,7 @@
-import React from 'react';
 
 const Installation = () => {
+
+    // const 
     return (
         <div>
             <h2>Installation</h2>
