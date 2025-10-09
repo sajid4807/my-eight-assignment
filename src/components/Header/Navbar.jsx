@@ -1,6 +1,5 @@
 import { FaGithub } from "react-icons/fa";
-import './navbar.css'
-import { NavLink } from "react-router";
+import { Link, NavLink } from "react-router";
 
 const Navbar = () => {
   return (
@@ -33,7 +32,7 @@ const Navbar = () => {
         <NavLink to="/install" className="font-semibold">Installation</NavLink>
           </ul>
         </div>
-        <NavLink to='/' className="btn btn-ghost text-xl"><img src="../../../src/assets/logo.png" className="w-10 h-10" alt="" /> <span className="font-bold bg-gradient-to-r from-[#632ee3] to-[#9f62f2] bg-clip-text text-transparent">HERO.IO</span> </NavLink>
+        <NavLink to='/' className="flex items-center text-xl"><img src="../../../src/assets/logo.png" className="w-10 h-10 mr-2" alt="" /> <span className="font-bold bg-gradient-to-r from-[#632ee3] to-[#9f62f2] bg-clip-text text-transparent">HERO.IO</span> </NavLink>
       </div>
       <div className="navbar-center hidden lg:flex">
         <NavLink to="/" className="mr-7 font-semibold">Home</NavLink>
@@ -41,7 +40,7 @@ const Navbar = () => {
         <NavLink to="/install" className="font-semibold">Installation</NavLink>
       </div>
       <div className="navbar-end">
-        <a className="btn bg-gradient-to-r from-[#632ee3] to-[#9f62f2] text-white"><FaGithub /> Contribute</a>
+        <Link to="https://github.com/sajid4807" target="_blank" className="btn bg-gradient-to-r from-[#632ee3] to-[#9f62f2] text-white"><FaGithub /> Contribute</Link>
       </div>
     </div>
   );

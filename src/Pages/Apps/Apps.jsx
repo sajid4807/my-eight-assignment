@@ -12,7 +12,7 @@ const Apps = () => {
     const trim = search.trim().toLocaleLowerCase()
 
     const searchApp = trim? appsData.filter(app=> app.title.toLocaleLowerCase().includes(trim)): appsData;
-    console.log(searchApp)
+    // console.log(searchApp)
 
     // const {search, setSearch} = useState('')
 

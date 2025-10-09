@@ -16,7 +16,7 @@ const AppDetails = () => {
 
   const singleApp = data.find((app) => app.id === appId);
 //   console.log(singleApp);
-  const { image, title, companyName,description } = singleApp;
+  const { image, title, companyName,description,reviews,downloads,ratingAvg } = singleApp;
   // console.log(typeof appId)
 
 
@@ -28,6 +28,7 @@ const sortedRatings = [...singleApp.ratings].sort((a, b) => {
 
 
     const handelInstallClick = id => {
+      alert('clicked')
       addStoreBd(id)
     }
   
@@ -52,17 +53,17 @@ const sortedRatings = [...singleApp.ratings].sort((a, b) => {
             <div>
                 <img src={downloadsIcon} alt="" />
                 <p className="text-[#001931]/80 text-lg lg:text-xl my-1">Downloads</p>
-                <h3 className="text-[#001931] text-2xl lg:text-5xl font-extrabold">8M</h3>
+                <h3 className="text-[#001931] text-2xl lg:text-5xl font-bold">{downloads}</h3>
             </div>
             <div>
                 <img src={ratingsIcon} alt="" />
                 <p className="text-[#001931]/80 text-lg lg:text-xl my-1">Average Ratings</p>
-                <h3 className="text-[#001931]  text-2xl lg:text-5xl font-extrabold" >4.9</h3>
+                <h3 className="text-[#001931]  text-2xl lg:text-5xl font-bold" >{ratingAvg}</h3>
             </div>
             <div>
                 <img src={reviewIcon} alt="" />
                 <p className="text-[#001931]/80 text-lg lg:text-xl my-1">Total Reviews</p>
-                <h3 className="text-[#001931]  text-2xl lg:text-5xl font-extrabold">54K</h3>
+                <h3 className="text-[#001931]  text-2xl lg:text-5xl font-bold">{reviews}</h3>
             </div>
           </div>
           <div className="card-actions">
