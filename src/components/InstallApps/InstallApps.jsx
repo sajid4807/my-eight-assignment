@@ -1,16 +1,12 @@
 import downloadsIcon from "../../assets/icon-downloads.png";
 import ratingsIcon from "../../assets/icon-ratings.png";
-const InstallApps = ({ app,uninstallApp }) => {
-    const {image,title,ratingAvg,downloads,id} = app
+const InstallApps = ({ app, uninstallApp }) => {
+  const { image, title, ratingAvg, downloads, id } = app;
   return (
     <div>
       <div className="card card-side py-2 bg-base-100 mb-6 shadow-sm">
         <figure className="ml-2 lg:ml-5">
-          <img
-            className="w-20 h-20 rounded-lg"
-            src={image}
-            alt=""
-          />
+          <img className="w-20 h-20 rounded-lg" src={image} alt="" />
         </figure>
         <div className="card-body p-3 lg:p-6">
           <div className="flex justify-between items-center">
@@ -31,7 +27,10 @@ const InstallApps = ({ app,uninstallApp }) => {
                 </div>
               </div>
             </div>
-            <button onClick={() => uninstallApp(id)} className="btn text-white font-semibold bg-[#00D390]">
+            <button
+              onClick={() => uninstallApp(id)}
+              className="btn text-white font-semibold bg-[#00D390]"
+            >
               Uninstall
             </button>
           </div>

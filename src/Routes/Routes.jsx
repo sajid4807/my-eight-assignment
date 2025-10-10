@@ -6,35 +6,36 @@ import Installation from "../Pages/Installation/Installation";
 import AppDetails from "../components/AppDetails/AppDetails";
 import ErrorPages from "../Pages/ErrorPages/ErrorPages";
 import ErrorId from "../components/ErrorId/ErrorId";
+import Loading from "../Pages/Loading/Loading";
 
 export const router = createBrowserRouter([
   {
     path: "/",
     Component: Root,
-    errorElement:<ErrorPages />,
+    errorElement: <ErrorPages />,
+    hydrateFallbackElement: <Loading></Loading>,
     children: [
       {
         index: true,
         path: "/",
-        loader:()=> fetch('/homeData.json'),
+        loader: () => fetch("/homeData.json"),
         Component: Home,
       },
       {
-        path:'apps',
-        loader:()=> fetch('/allData.json'),
-        Component:Apps
+        path: "apps",
+        loader: () => fetch("/allData.json"),
+        Component: Apps,
       },
       {
-        path:'install',
-        loader:()=> fetch('/allData.json'),
-        Component:Installation
+        path: "install",
+        loader: () => fetch("/allData.json"),
+        Component: Installation,
       },
       {
-        path:'/appDetails/:id',
-        errorElement:<ErrorId />,
-        loader:()=> fetch('/allData.json'),
-        Component:AppDetails,
-        
+        path: "/appDetails/:id",
+        errorElement: <ErrorId />,
+        loader: () => fetch("/allData.json"),
+        Component: AppDetails,
       },
     ],
   },

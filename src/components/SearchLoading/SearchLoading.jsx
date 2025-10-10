@@ -1,6 +1,6 @@
-const Loading = () => {
+const SearchLoading = () => {
   return (
-    <div className="flex justify-between items-center min-h-screen w-full">
+    <div className=" absolute top-1/2 left-1/2">
       <div className="flex space-x-2">
         <span className="loading loading-bars loading-xs text-primary"></span>
         <span className="loading loading-bars loading-sm text-secondary"></span>
@@ -12,4 +12,4 @@ const Loading = () => {
   );
 };
 
-export default Loading;
+export default SearchLoading;

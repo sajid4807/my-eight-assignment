@@ -1,6 +1,12 @@
 import { FaGithub } from "react-icons/fa";
 import { Link, NavLink } from "react-router";
 import logo from '../../assets/logo.png';
+import { FaHome } from "react-icons/fa";
+import { FaAppStore } from "react-icons/fa";
+import { FaCloudDownloadAlt } from "react-icons/fa";
+
+
+
 import './navbar.css'
 
 const Navbar = () => {
@@ -37,9 +43,9 @@ const Navbar = () => {
         <NavLink to='/' className="flex items-center text-xl"><img src={logo} className="w-10 h-10 mr-2" alt="" /> <span className="font-bold bg-gradient-to-r from-[#632ee3] to-[#9f62f2] bg-clip-text text-transparent">HERO.IO</span> </NavLink>
       </div>
       <div className="navbar-center hidden lg:flex">
-        <NavLink to="/" className="mr-7 font-semibold">Home</NavLink>
-        <NavLink to="/apps" className="mr-7 font-semibold">Apps</NavLink>
-        <NavLink to="/install" className="font-semibold">Installation</NavLink>
+        <NavLink to="/" className="mr-7 font-semibold flex items-center"><FaHome  className="mr-1"/>Home</NavLink>
+        <NavLink to="/apps" className="mr-7 font-semibold flex items-center"><FaAppStore className="mr-1" />Apps</NavLink>
+        <NavLink to="/install" className="font-semibold flex items-center"> <FaCloudDownloadAlt className="mr-1" /> Installation</NavLink>
       </div>
       <div className="navbar-end">
         <Link to="https://github.com/sajid4807" target="_blank" className="btn bg-gradient-to-r from-[#632ee3] to-[#9f62f2] text-white"><FaGithub /> Contribute</Link>
